@@ -1,4 +1,5 @@
 import mne
+import pylsl
 
 
 def print_hi(name):
