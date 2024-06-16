@@ -13,7 +13,6 @@ sfreq = int(raw.info['sfreq'])
 # Define stream parameters
 info = StreamInfo('EDFStream', 'EEG', channel_count=len(ch_names), nominal_srate=sfreq,
                   channel_format='float32', source_id='myuid34234')
-# info = StreamInfo('SimulatedEEG', 'EEG', 8, 100, 'float32', 'myuid34234')
 
 
 # Adjust the channel count to match the LSL stream's expected number of channels
