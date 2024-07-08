@@ -15,6 +15,7 @@ info = StreamInfo('EDFStream', 'EEG', channel_count=len(ch_names), nominal_srate
                   channel_format='float32', source_id='myuid34234')
 
 
+
 # Adjust the channel count to match the LSL stream's expected number of channels
 # info.channel_count = 35  # Update this number according to your LSL stream's configuration
 
